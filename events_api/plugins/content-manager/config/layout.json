@@ -1,0 +1,21 @@
+{
+  "events": {
+    "attributes": {
+      "eventName": {
+        "appearance": ""
+      },
+      "fromDate": {
+        "appearance": ""
+      },
+      "toDate": {
+        "appearance": ""
+      },
+      "userId": {
+        "appearance": ""
+      },
+      "locationDetails": {
+        "appearance": ""
+      }
+    }
+  }
+}

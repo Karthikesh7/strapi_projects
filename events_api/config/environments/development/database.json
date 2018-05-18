@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "127.0.0.1",
+        "port": 27017,
+        "database": "events_db",
+        "username": "karthik",
+        "password": "123456"
+      },
+      "options": {
+        "authenticationDatabase": "events_db",
+        "ssl": false
+      }
+    }
+  }
+}

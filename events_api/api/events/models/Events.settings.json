@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "events",
+  "info": {
+    "name": "events",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "eventName": {
+      "minLength": 2,
+      "type": "string",
+      "required": true
+    },
+    "fromDate": {
+      "type": "date",
+      "required": true
+    },
+    "toDate": {
+      "type": "date",
+      "required": true
+    },
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "locationDetails": {
+      "minLength": 2,
+      "type": "string",
+      "required": true
+    }
+  }
+}
